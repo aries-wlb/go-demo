@@ -10,11 +10,11 @@ import (
 )
 
 func BuildApp() (*App, func(), error) {
-	// 默认使用gorm存储注入，这里可使用 InitMongoDB & mongoModel.ModelSet 替换为 gorm 存储
 	wire.Build(controller.ControllerSet,
 		repository.RepositorySet,
 		AppSet,
 		NewGormDB,
+		NewSqliteDB,
 	)
 	return new(App), nil, nil
 }
