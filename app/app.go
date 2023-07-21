@@ -13,7 +13,7 @@ func NewEngine(userApi *controller.UserApi) *gin.Engine {
 	api := engine.Group("/api")
 	user := api.Group("/user")
 	{
-		user.GET("/", userApi.Get)
+		user.GET("/:id", userApi.Get)
 	}
 	return engine
 }
@@ -24,7 +24,7 @@ type App struct {
 	Engine *gin.Engine
 }
 
-func (this *App) run() {
+func (this *App) Run() {
 	port := os.Getenv("server.port")
 	if port == "" {
 		port = "3000"

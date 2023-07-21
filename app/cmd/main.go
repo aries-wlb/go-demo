@@ -6,5 +6,6 @@ import (
 )
 
 func main() {
-	app.BuildApp()
+	webApp,_,_ :=app.BuildApp()
+	webApp.Run()
 }
