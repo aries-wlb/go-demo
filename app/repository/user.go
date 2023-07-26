@@ -1,19 +1,29 @@
 package repository
 
 import (
-	"dipont.com/demo/app/domain"
+	"context"
+
 	"github.com/google/wire"
-	"gorm.io/gorm"
+	"github.com/uptrace/bun"
 )
+
+type User struct {
+	Id   int
+	Name string
+	Age  int
+}
 
 var userSet = wire.NewSet(wire.Struct(new(UserRepository), "*"))
 
 type UserRepository struct {
-	Db *gorm.DB
+	Db *bun.DB
 }
 
-func (repo *UserRepository) FindById(id int) (user *domain.User) {
-	user = &domain.User{}
-	repo.Db.First(user, "id = ?", id)
+func (repo *UserRepository) FindById(id int32) (user *User) {
+	ctx := context.Background()
+	user = &User{}
+	if err := repo.Db.NewSelect().Model(user).Where("id = ?", 1).Scan(ctx); err != nil {
+		panic(err)
+	}
 	return
 }
