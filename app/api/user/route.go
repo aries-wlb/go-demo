@@ -2,16 +2,18 @@ package user
 
 import (
 	"github.com/uptrace/bunrouter"
-	"patrick.com/abroad/app/domain"
 	"patrick.com/abroad/app/logger"
+	"patrick.com/abroad/app/repository/user"
 )
 
-func Init(router *bunrouter.Router, ud *domain.UserDomain) {
+func Init(group *bunrouter.Group, ud user.UserRepoImpl) {
 	userHandler := &UserHandler{
-		UserDomain: ud,
+		UserImpl: ud,
 	}
 	logger.Info("init user route")
 
-	router.GET("/user/:id", userHandler.getUser)
-	router.POST("/user", userHandler.createUser)
+	userGroup := group.NewGroup("/user")
+
+	userGroup.GET("/info", userHandler.getUser)
+	userGroup.POST("/update", userHandler.updateUser)
 }

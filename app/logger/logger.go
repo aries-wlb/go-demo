@@ -4,18 +4,18 @@ import (
 	"golang.org/x/exp/slog"
 )
 
-func Info(msg string) {
-	slog.Info(msg)
+func Info(msg string, args ...any) {
+	slog.Info(msg, args...)
 }
 
-func Error(msg string) {
-	slog.Error(msg)
+func Error(msg string, args ...any) {
+	slog.Error(msg, args...)
 }
 
-func Warn(msg string) {
-	slog.Warn(msg)
+func Warn(msg string, args ...any) {
+	slog.Warn(msg, args...)
 }
 
-func Debug(msg string) {
-	slog.Debug(msg)
+func Debug(msg string, args ...any) {
+	slog.Debug(msg, args...)
 }

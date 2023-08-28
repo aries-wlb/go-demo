@@ -1,0 +1,1016 @@
+
+<html>
+<body>
+
+<form id="receipt" name="receipt">
+    
+        <input type="hidden" name="utf8" value="✓&lt;/script&gt;&lt;script&gt;alert(1)&lt;/script&gt;">
+    
+        <input type="hidden" name="auth_cv_result" value="M">
+    
+        <input type="hidden" name="req_locale" value="en-us">
+    
+        <input type="hidden" name="decision_case_priority" value="3">
+    
+        <input type="hidden" name="auth_trans_ref_no" value="6910424667536880103001">
+    
+        <input type="hidden" name="req_bill_to_surname" value="Hajshsjej">
+    
+        <input type="hidden" name="merchant_advice_code" value="01">
+    
+        <input type="hidden" name="score_rcode" value="1">
+    
+        <input type="hidden" name="card_type_name" value="Visa">
+    
+        <input type="hidden" name="req_merchant_defined_data6" value="1">
+    
+        <input type="hidden" name="auth_amount" value="0">
+    
+        <input type="hidden" name="req_merchant_defined_data7" value="0">
+    
+        <input type="hidden" name="req_merchant_defined_data8" value="0">
+    
+        <input type="hidden" name="req_merchant_defined_data9" value="0">
+    
+        <input type="hidden" name="req_payer_authentication_merchant_name" value="Vietnam eSports">
+    
+        <input type="hidden" name="auth_time" value="2023-08-03T060107Z">
+    
+        <input type="hidden" name="decision_early_return_code" value="9999999">
+    
+        <input type="hidden" name="transaction_id" value="6910424667536880103001">
+    
+        <input type="hidden" name="score_ip_city" value="jakarta selatan">
+    
+        <input type="hidden" name="req_merchant_defined_data1" value="GARENA">
+    
+        <input type="hidden" name="req_merchant_defined_data3" value="28">
+    
+        <input type="hidden" name="req_merchant_defined_data4" value="0">
+    
+        <input type="hidden" name="req_merchant_defined_data5" value="32">
+    
+        <input type="hidden" name="auth_code" value="831000">
+    
+        <input type="hidden" name="payer_authentication_specification_version" value="2.1.0">
+    
+        <input type="hidden" name="req_bill_to_address_country" value="VN">
+    
+        <input type="hidden" name="auth_cv_result_raw" value="M">
+    
+        <input type="hidden" name="score_suspicious_info" value="MUL-EM^NON-FN">
+    
+        <input type="hidden" name="decision_rcode" value="1">
+    
+        <input type="hidden" name="score_rmsg" value="score service was successful">
+    
+        <input type="hidden" name="req_bill_to_address_line1" value="Tenaga bekera teguh beraatu">
+    
+        <input type="hidden" name="req_card_number" value="400000xxxxxx0002">
+    
+        <input type="hidden" name="signature" value="rd mvio8WbKkQpOGcyEVSV4pMiFYYciJK3tKG2A4q1I=">
+    
+        <input type="hidden" name="payment_token" value="6910424667536880103001">
+    
+        <input type="hidden" name="auth_cavv_result" value="2">
+    
+        <input type="hidden" name="score_identity_info" value="ID-M-HPOS^ID-X-NEG^MORPH-C">
+    
+        <input type="hidden" name="request_token" value="Axj/7wSTdp1oPiAwmO5ZAEUs2csWDRk0bNm7Vm2cOGDFgzYMGKft630RRAKft630RRWAAMjoZNJMt0gO yQgGk3adaD4gMJjuWQALzFK">
+    
+        <input type="hidden" name="req_amount" value="0.00">
+    
+        <input type="hidden" name="payer_authentication_reason_code" value="100">
+    
+        <input type="hidden" name="decision" value="ACCEPT">
+    
+        <input type="hidden" name="decision_return_code" value="1320000">
+    
+        <input type="hidden" name="req_customer_ip_address" value="103.86.128.2">
+    
+        <input type="hidden" name="signed_field_names" value="transaction_id,decision,req_access_key,req_profile_id,req_transaction_uuid,req_transaction_type,req_reference_number,req_amount,req_currency,req_locale,req_payment_method,req_bill_to_forename,req_bill_to_surname,req_bill_to_email,req_bill_to_phone,req_bill_to_address_line1,req_bill_to_address_city,req_bill_to_address_state,req_bill_to_address_country,req_card_number,req_card_type,req_card_expiry_date,card_type_name,req_customer_ip_address,req_device_fingerprint_id,req_merchant_defined_data1,req_merchant_defined_data3,req_merchant_defined_data4,req_merchant_defined_data5,req_merchant_defined_data6,req_merchant_defined_data7,req_merchant_defined_data8,req_merchant_defined_data9,req_merchant_defined_data10,req_merchant_defined_data11,req_merchant_defined_data12,req_merchant_defined_data13,req_merchant_defined_data14,req_merchant_defined_data15,req_merchant_defined_data16,req_merchant_defined_data17,req_merchant_defined_data18,req_merchant_defined_data21,req_payer_authentication_acs_window_size,req_payer_authentication_indicator,req_payer_authentication_merchant_name,message,reason_code,auth_avs_code,auth_avs_code_raw,auth_response,auth_amount,auth_code,auth_cavv_result,auth_cavv_result_raw,auth_cv_result,auth_cv_result_raw,auth_trans_ref_no,auth_time,request_token,merchant_advice_code,auth_reconciliation_reference_number,payer_authentication_reason_code,payer_authentication_enroll_e_commerce_indicator,payer_authentication_specification_version,payer_authentication_transaction_id,payer_authentication_enroll_veres_enrolled,score_factors,score_rcode,score_time_local,score_model_used,score_return_code,score_host_severity,score_score_result,score_reason_code,score_rflag,score_rmsg,score_address_info,score_card_account_type,score_card_issuer,score_card_scheme,score_identity_info,score_internet_info,score_ip_city,score_ip_country,score_ip_state,score_suspicious_info,score_velocity_info,decision_early_return_code,decision_early_reason_code,decision_reason_code,decision_rmsg,decision_rcode,decision_case_priority,decision_return_code,decision_early_rcode,decision_rflag,score_bin_country,payment_token,signed_field_names,signed_date_time">
+    
+        <input type="hidden" name="decision_reason_code" value="100">
+    
+        <input type="hidden" name="score_time_local" value="13:01:06">
+    
+        <input type="hidden" name="req_transaction_type" value="authorization,create_payment_token">
+    
+        <input type="hidden" name="req_merchant_defined_data21" value="N">
+    
+        <input type="hidden" name="score_internet_info" value="MM-IPBCO^MM-IPEM">
+    
+        <input type="hidden" name="req_reference_number" value="130000265_1691042456T72O3wNVya">
+    
+        <input type="hidden" name="auth_reconciliation_reference_number" value="321406168242">
+    
+        <input type="hidden" name="req_payer_authentication_indicator" value="01">
+    
+        <input type="hidden" name="score_score_result" value="8">
+    
+        <input type="hidden" name="payer_authentication_enroll_veres_enrolled" value="U">
+    
+        <input type="hidden" name="req_card_expiry_date" value="08-2028">
+    
+        <input type="hidden" name="score_rflag" value="SOK">
+    
+        <input type="hidden" name="score_card_issuer" value="INTL HDQTRS-CENTER OWNED">
+    
+        <input type="hidden" name="req_bill_to_phone" value="84857856002">
+    
+        <input type="hidden" name="auth_response" value="00">
+    
+        <input type="hidden" name="req_payment_method" value="card">
+    
+        <input type="hidden" name="req_merchant_defined_data10" value="0">
+    
+        <input type="hidden" name="req_merchant_defined_data12" value="0">
+    
+        <input type="hidden" name="req_merchant_defined_data11" value="0.000000">
+    
+        <input type="hidden" name="req_merchant_defined_data14" value="0">
+    
+        <input type="hidden" name="req_merchant_defined_data13" value="0">
+    
+        <input type="hidden" name="req_merchant_defined_data16" value="0.000000">
+    
+        <input type="hidden" name="req_merchant_defined_data15" value="0">
+    
+        <input type="hidden" name="req_merchant_defined_data18" value="0">
+    
+        <input type="hidden" name="req_merchant_defined_data17" value="3">
+    
+        <input type="hidden" name="payer_authentication_enroll_e_commerce_indicator" value="internet">
+    
+        <input type="hidden" name="req_card_type" value="001">
+    
+        <input type="hidden" name="payer_authentication_transaction_id" value="vejBvFyhO8uSupZxyh50">
+    
+        <input type="hidden" name="score_velocity_info" value="VEL-NAME^VELI-CC^VELL-CC^VELS-CC^VELV-CC">
+    
+        <input type="hidden" name="auth_avs_code" value="Y">
+    
+        <input type="hidden" name="score_address_info" value="MM-BIN^UNV-ADDR">
+    
+        <input type="hidden" name="score_factors" value="H^V">
+    
+        <input type="hidden" name="score_model_used" value="mobile_digital">
+    
+        <input type="hidden" name="decision_rmsg" value="Service processed successfully">
+    
+        <input type="hidden" name="req_profile_id" value="B93D8FD5-4061-4EDD-A5C4-90D899C69BEB">
+    
+        <input type="hidden" name="decision_rflag" value="SOK">
+    
+        <input type="hidden" name="signed_date_time" value="2023-08-03T06:01:08Z">
+    
+        <input type="hidden" name="score_ip_state" value="jk">
+    
+        <input type="hidden" name="score_ip_country" value="id">
+    
+        <input type="hidden" name="score_card_scheme" value="VISA CREDIT">
+    
+        <input type="hidden" name="score_bin_country" value="US">
+    
+        <input type="hidden" name="req_bill_to_address_city" value="Riang gembira">
+    
+        <input type="hidden" name="score_reason_code" value="100">
+    
+        <input type="hidden" name="reason_code" value="100">
+    
+        <input type="hidden" name="req_bill_to_forename" value="Hajshsjej">
+    
+        <input type="hidden" name="req_payer_authentication_acs_window_size" value="01">
+    
+        <input type="hidden" name="req_device_fingerprint_id" value="130000265x1691042429">
+    
+        <input type="hidden" name="auth_cavv_result_raw" value="2">
+    
+        <input type="hidden" name="score_card_account_type" value="Visa Traditional">
+    
+        <input type="hidden" name="req_bill_to_email" value="c_00608a878d6b3678b3b24cad0f525151@airpay.vn">
+    
+        <input type="hidden" name="auth_avs_code_raw" value="Y">
+    
+        <input type="hidden" name="req_currency" value="VND">
+    
+        <input type="hidden" name="message" value="Request was processed successfully.">
+    
+        <input type="hidden" name="req_transaction_uuid" value="1691042456T72O3wNVya">
+    
+        <input type="hidden" name="score_return_code" value="1070000">
+    
+        <input type="hidden" name="score_host_severity" value="1">
+    
+        <input type="hidden" name="req_access_key" value="60bbb5d3d6373c00b4af1fcd563316e2">
+    
+        <input type="hidden" name="decision_early_reason_code" value="100">
+    
+        <input type="hidden" name="req_bill_to_address_state" value="Riang gembira">
+    
+        <input type="hidden" name="decision_early_rcode" value="1">
+    
+</form>
+<script src="https://staticv2.airpay.in.th/static/js-bridge/v0.3.11/index.umd.js"></script>
+<script src="https://cdn.bootcss.com/lz-string/1.4.4/lz-string.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function (e) {
+    var env = 'test';
+    var region = 'vn';
+    var _isMobile = true;
+    var _isAirPay = true;
+
+    // Init Tracer
+    jsSdk.initTracer({
+        appType: _isAirPay ? 'Shopeepay' : 'Shopee',
+        isMobile: _isMobile,
+        env,
+        region,
+    })
+
+    jsSdk.createRootSpan('[Intial]H5-SSR ejs Page', {
+        attributes: {
+            path: location.href,
+        },
+    });
+
+    var rootSpan = jsSdk.getRootSpan()
+
+    rootSpan.addEvent('[Action]Enter Page')
+
+    var mergeProcess = function(localEnv) {
+        // apw merge
+        // shopee app /beeshop|shopee/i
+        // shopeepay app /airpay|shopeepay/i
+        // nav to apm wsa rftp page, new shopeepay app version will do this
+        // https://test.shopee.co.th/payment/redirect_from_third_party/11234732731810951557?__mobile__=1&to_local_spm=1&ref_id=
+        var postData = {}
+
+        
+            postData['utf8'] = '✓</script><script>alert(1)</script>';
+        
+            postData['auth_cv_result'] = 'M';
+        
+            postData['req_locale'] = 'en-us';
+        
+            postData['decision_case_priority'] = '3';
+        
+            postData['auth_trans_ref_no'] = '6910424667536880103001';
+        
+            postData['req_bill_to_surname'] = 'Hajshsjej';
+        
+            postData['merchant_advice_code'] = '01';
+        
+            postData['score_rcode'] = '1';
+        
+            postData['card_type_name'] = 'Visa';
+        
+            postData['req_merchant_defined_data6'] = '1';
+        
+            postData['auth_amount'] = '0';
+        
+            postData['req_merchant_defined_data7'] = '0';
+        
+            postData['req_merchant_defined_data8'] = '0';
+        
+            postData['req_merchant_defined_data9'] = '0';
+        
+            postData['req_payer_authentication_merchant_name'] = 'Vietnam eSports';
+        
+            postData['auth_time'] = '2023-08-03T060107Z';
+        
+            postData['decision_early_return_code'] = '9999999';
+        
+            postData['transaction_id'] = '6910424667536880103001';
+        
+            postData['score_ip_city'] = 'jakarta selatan';
+        
+            postData['req_merchant_defined_data1'] = 'GARENA';
+        
+            postData['req_merchant_defined_data3'] = '28';
+        
+            postData['req_merchant_defined_data4'] = '0';
+        
+            postData['req_merchant_defined_data5'] = '32';
+        
+            postData['auth_code'] = '831000';
+        
+            postData['payer_authentication_specification_version'] = '2.1.0';
+        
+            postData['req_bill_to_address_country'] = 'VN';
+        
+            postData['auth_cv_result_raw'] = 'M';
+        
+            postData['score_suspicious_info'] = 'MUL-EM^NON-FN';
+        
+            postData['decision_rcode'] = '1';
+        
+            postData['score_rmsg'] = 'score service was successful';
+        
+            postData['req_bill_to_address_line1'] = 'Tenaga bekera teguh beraatu';
+        
+            postData['req_card_number'] = '400000xxxxxx0002';
+        
+            postData['signature'] = 'rd mvio8WbKkQpOGcyEVSV4pMiFYYciJK3tKG2A4q1I=';
+        
+            postData['payment_token'] = '6910424667536880103001';
+        
+            postData['auth_cavv_result'] = '2';
+        
+            postData['score_identity_info'] = 'ID-M-HPOS^ID-X-NEG^MORPH-C';
+        
+            postData['request_token'] = 'Axj/7wSTdp1oPiAwmO5ZAEUs2csWDRk0bNm7Vm2cOGDFgzYMGKft630RRAKft630RRWAAMjoZNJMt0gO yQgGk3adaD4gMJjuWQALzFK';
+        
+            postData['req_amount'] = '0.00';
+        
+            postData['payer_authentication_reason_code'] = '100';
+        
+            postData['decision'] = 'ACCEPT';
+        
+            postData['decision_return_code'] = '1320000';
+        
+            postData['req_customer_ip_address'] = '103.86.128.2';
+        
+            postData['signed_field_names'] = 'transaction_id,decision,req_access_key,req_profile_id,req_transaction_uuid,req_transaction_type,req_reference_number,req_amount,req_currency,req_locale,req_payment_method,req_bill_to_forename,req_bill_to_surname,req_bill_to_email,req_bill_to_phone,req_bill_to_address_line1,req_bill_to_address_city,req_bill_to_address_state,req_bill_to_address_country,req_card_number,req_card_type,req_card_expiry_date,card_type_name,req_customer_ip_address,req_device_fingerprint_id,req_merchant_defined_data1,req_merchant_defined_data3,req_merchant_defined_data4,req_merchant_defined_data5,req_merchant_defined_data6,req_merchant_defined_data7,req_merchant_defined_data8,req_merchant_defined_data9,req_merchant_defined_data10,req_merchant_defined_data11,req_merchant_defined_data12,req_merchant_defined_data13,req_merchant_defined_data14,req_merchant_defined_data15,req_merchant_defined_data16,req_merchant_defined_data17,req_merchant_defined_data18,req_merchant_defined_data21,req_payer_authentication_acs_window_size,req_payer_authentication_indicator,req_payer_authentication_merchant_name,message,reason_code,auth_avs_code,auth_avs_code_raw,auth_response,auth_amount,auth_code,auth_cavv_result,auth_cavv_result_raw,auth_cv_result,auth_cv_result_raw,auth_trans_ref_no,auth_time,request_token,merchant_advice_code,auth_reconciliation_reference_number,payer_authentication_reason_code,payer_authentication_enroll_e_commerce_indicator,payer_authentication_specification_version,payer_authentication_transaction_id,payer_authentication_enroll_veres_enrolled,score_factors,score_rcode,score_time_local,score_model_used,score_return_code,score_host_severity,score_score_result,score_reason_code,score_rflag,score_rmsg,score_address_info,score_card_account_type,score_card_issuer,score_card_scheme,score_identity_info,score_internet_info,score_ip_city,score_ip_country,score_ip_state,score_suspicious_info,score_velocity_info,decision_early_return_code,decision_early_reason_code,decision_reason_code,decision_rmsg,decision_rcode,decision_case_priority,decision_return_code,decision_early_rcode,decision_rflag,score_bin_country,payment_token,signed_field_names,signed_date_time';
+        
+            postData['decision_reason_code'] = '100';
+        
+            postData['score_time_local'] = '13:01:06';
+        
+            postData['req_transaction_type'] = 'authorization,create_payment_token';
+        
+            postData['req_merchant_defined_data21'] = 'N';
+        
+            postData['score_internet_info'] = 'MM-IPBCO^MM-IPEM';
+        
+            postData['req_reference_number'] = '130000265_1691042456T72O3wNVya';
+        
+            postData['auth_reconciliation_reference_number'] = '321406168242';
+        
+            postData['req_payer_authentication_indicator'] = '01';
+        
+            postData['score_score_result'] = '8';
+        
+            postData['payer_authentication_enroll_veres_enrolled'] = 'U';
+        
+            postData['req_card_expiry_date'] = '08-2028';
+        
+            postData['score_rflag'] = 'SOK';
+        
+            postData['score_card_issuer'] = 'INTL HDQTRS-CENTER OWNED';
+        
+            postData['req_bill_to_phone'] = '84857856002';
+        
+            postData['auth_response'] = '00';
+        
+            postData['req_payment_method'] = 'card';
+        
+            postData['req_merchant_defined_data10'] = '0';
+        
+            postData['req_merchant_defined_data12'] = '0';
+        
+            postData['req_merchant_defined_data11'] = '0.000000';
+        
+            postData['req_merchant_defined_data14'] = '0';
+        
+            postData['req_merchant_defined_data13'] = '0';
+        
+            postData['req_merchant_defined_data16'] = '0.000000';
+        
+            postData['req_merchant_defined_data15'] = '0';
+        
+            postData['req_merchant_defined_data18'] = '0';
+        
+            postData['req_merchant_defined_data17'] = '3';
+        
+            postData['payer_authentication_enroll_e_commerce_indicator'] = 'internet';
+        
+            postData['req_card_type'] = '001';
+        
+            postData['payer_authentication_transaction_id'] = 'vejBvFyhO8uSupZxyh50';
+        
+            postData['score_velocity_info'] = 'VEL-NAME^VELI-CC^VELL-CC^VELS-CC^VELV-CC';
+        
+            postData['auth_avs_code'] = 'Y';
+        
+            postData['score_address_info'] = 'MM-BIN^UNV-ADDR';
+        
+            postData['score_factors'] = 'H^V';
+        
+            postData['score_model_used'] = 'mobile_digital';
+        
+            postData['decision_rmsg'] = 'Service processed successfully';
+        
+            postData['req_profile_id'] = 'B93D8FD5-4061-4EDD-A5C4-90D899C69BEB';
+        
+            postData['decision_rflag'] = 'SOK';
+        
+            postData['signed_date_time'] = '2023-08-03T06:01:08Z';
+        
+            postData['score_ip_state'] = 'jk';
+        
+            postData['score_ip_country'] = 'id';
+        
+            postData['score_card_scheme'] = 'VISA CREDIT';
+        
+            postData['score_bin_country'] = 'US';
+        
+            postData['req_bill_to_address_city'] = 'Riang gembira';
+        
+            postData['score_reason_code'] = '100';
+        
+            postData['reason_code'] = '100';
+        
+            postData['req_bill_to_forename'] = 'Hajshsjej';
+        
+            postData['req_payer_authentication_acs_window_size'] = '01';
+        
+            postData['req_device_fingerprint_id'] = '130000265x1691042429';
+        
+            postData['auth_cavv_result_raw'] = '2';
+        
+            postData['score_card_account_type'] = 'Visa Traditional';
+        
+            postData['req_bill_to_email'] = 'c_00608a878d6b3678b3b24cad0f525151@airpay.vn';
+        
+            postData['auth_avs_code_raw'] = 'Y';
+        
+            postData['req_currency'] = 'VND';
+        
+            postData['message'] = 'Request was processed successfully.';
+        
+            postData['req_transaction_uuid'] = '1691042456T72O3wNVya';
+        
+            postData['score_return_code'] = '1070000';
+        
+            postData['score_host_severity'] = '1';
+        
+            postData['req_access_key'] = '60bbb5d3d6373c00b4af1fcd563316e2';
+        
+            postData['decision_early_reason_code'] = '100';
+        
+            postData['req_bill_to_address_state'] = 'Riang gembira';
+        
+            postData['decision_early_rcode'] = '1';
+        ;
+
+        var envMap = {
+            test: 'test.',
+            dev: 'test.',
+            uat: 'uat.',
+            staging: 'staging.',
+            live: ''
+        }
+
+        var formatEnv = envMap[localEnv || env]
+        var prefix = typeof formatEnv === undefined ? 'test.' : formatEnv
+        var domain = region === 'th' ? 'co.th' : 'vn'
+
+        var url = ''
+        var addCardPrefix = 'apsu'
+
+        // var paymentPrefix = 'apso'
+        if ((postData.ref_id && postData.ref_id.startsWith(addCardPrefix)) || !postData.ref_id) { // add card
+            var compressed = LZString.compressToBase64(JSON.stringify(postData));
+            url = 'https://' + prefix + 'shopee.' + domain + '/payment/redirect_from_third_party/0?__mobile__=1&to_local_spm=1&is_shopeepay=1&card_data=' + compressed + '&ref_id=' + postData.ref_id;
+        } else { // payment
+            url = 'https://' + prefix + 'shopee.' + domain + '/payment/redirect_from_third_party/0?__mobile__=1&to_local_spm=1&is_shopeepay=1&ref_id=' + postData.ref_id;
+        }
+
+        rootSpan.addEvent('[Action]process merge logic', {
+            url,
+            refId: postData.ref_id
+        })
+
+        window.location.href = url;
+    }
+
+    var processBeforeMerge = function () {
+        var cookieData = document.cookie.split('; ').reduce(function (prev, current) {
+            var kv = current.split('=');
+            var name = kv[0]
+            var value = kv[1]
+            prev[name] = value;
+            return prev
+        }, {});
+        var _isWKWebview = true;
+        var compressed = LZString.compressToBase64(JSON.stringify(cookieData));
+        rootSpan.addEvent('[Action]process logic before merge', {
+            cData: compressed,
+            isWKWebview: _isWKWebview
+        })
+        // partner
+        if (!('bank_reg_init_partner_callback_url' in cookieData)) {
+            if (!_isWKWebview) {
+                return;
+            }
+            var data = {}
+            
+                data['utf8'] = '%E2%9C%93%3C/script%3E%3Cscript%3Ealert(1)%3C/script%3E';
+            
+                data['auth_cv_result'] = 'M';
+            
+                data['req_locale'] = 'en-us';
+            
+                data['decision_case_priority'] = '3';
+            
+                data['auth_trans_ref_no'] = '6910424667536880103001';
+            
+                data['req_bill_to_surname'] = 'Hajshsjej';
+            
+                data['merchant_advice_code'] = '01';
+            
+                data['score_rcode'] = '1';
+            
+                data['card_type_name'] = 'Visa';
+            
+                data['req_merchant_defined_data6'] = '1';
+            
+                data['auth_amount'] = '0';
+            
+                data['req_merchant_defined_data7'] = '0';
+            
+                data['req_merchant_defined_data8'] = '0';
+            
+                data['req_merchant_defined_data9'] = '0';
+            
+                data['req_payer_authentication_merchant_name'] = 'Vietnam%20eSports';
+            
+                data['auth_time'] = '2023-08-03T060107Z';
+            
+                data['decision_early_return_code'] = '9999999';
+            
+                data['transaction_id'] = '6910424667536880103001';
+            
+                data['score_ip_city'] = 'jakarta%20selatan';
+            
+                data['req_merchant_defined_data1'] = 'GARENA';
+            
+                data['req_merchant_defined_data3'] = '28';
+            
+                data['req_merchant_defined_data4'] = '0';
+            
+                data['req_merchant_defined_data5'] = '32';
+            
+                data['auth_code'] = '831000';
+            
+                data['payer_authentication_specification_version'] = '2.1.0';
+            
+                data['req_bill_to_address_country'] = 'VN';
+            
+                data['auth_cv_result_raw'] = 'M';
+            
+                data['score_suspicious_info'] = 'MUL-EM%5ENON-FN';
+            
+                data['decision_rcode'] = '1';
+            
+                data['score_rmsg'] = 'score%20service%20was%20successful';
+            
+                data['req_bill_to_address_line1'] = 'Tenaga%20bekera%20teguh%20beraatu';
+            
+                data['req_card_number'] = '400000xxxxxx0002';
+            
+                data['signature'] = 'rd%20mvio8WbKkQpOGcyEVSV4pMiFYYciJK3tKG2A4q1I=';
+            
+                data['payment_token'] = '6910424667536880103001';
+            
+                data['auth_cavv_result'] = '2';
+            
+                data['score_identity_info'] = 'ID-M-HPOS%5EID-X-NEG%5EMORPH-C';
+            
+                data['request_token'] = 'Axj/7wSTdp1oPiAwmO5ZAEUs2csWDRk0bNm7Vm2cOGDFgzYMGKft630RRAKft630RRWAAMjoZNJMt0gO%20yQgGk3adaD4gMJjuWQALzFK';
+            
+                data['req_amount'] = '0.00';
+            
+                data['payer_authentication_reason_code'] = '100';
+            
+                data['decision'] = 'ACCEPT';
+            
+                data['decision_return_code'] = '1320000';
+            
+                data['req_customer_ip_address'] = '103.86.128.2';
+            
+                data['signed_field_names'] = 'transaction_id,decision,req_access_key,req_profile_id,req_transaction_uuid,req_transaction_type,req_reference_number,req_amount,req_currency,req_locale,req_payment_method,req_bill_to_forename,req_bill_to_surname,req_bill_to_email,req_bill_to_phone,req_bill_to_address_line1,req_bill_to_address_city,req_bill_to_address_state,req_bill_to_address_country,req_card_number,req_card_type,req_card_expiry_date,card_type_name,req_customer_ip_address,req_device_fingerprint_id,req_merchant_defined_data1,req_merchant_defined_data3,req_merchant_defined_data4,req_merchant_defined_data5,req_merchant_defined_data6,req_merchant_defined_data7,req_merchant_defined_data8,req_merchant_defined_data9,req_merchant_defined_data10,req_merchant_defined_data11,req_merchant_defined_data12,req_merchant_defined_data13,req_merchant_defined_data14,req_merchant_defined_data15,req_merchant_defined_data16,req_merchant_defined_data17,req_merchant_defined_data18,req_merchant_defined_data21,req_payer_authentication_acs_window_size,req_payer_authentication_indicator,req_payer_authentication_merchant_name,message,reason_code,auth_avs_code,auth_avs_code_raw,auth_response,auth_amount,auth_code,auth_cavv_result,auth_cavv_result_raw,auth_cv_result,auth_cv_result_raw,auth_trans_ref_no,auth_time,request_token,merchant_advice_code,auth_reconciliation_reference_number,payer_authentication_reason_code,payer_authentication_enroll_e_commerce_indicator,payer_authentication_specification_version,payer_authentication_transaction_id,payer_authentication_enroll_veres_enrolled,score_factors,score_rcode,score_time_local,score_model_used,score_return_code,score_host_severity,score_score_result,score_reason_code,score_rflag,score_rmsg,score_address_info,score_card_account_type,score_card_issuer,score_card_scheme,score_identity_info,score_internet_info,score_ip_city,score_ip_country,score_ip_state,score_suspicious_info,score_velocity_info,decision_early_return_code,decision_early_reason_code,decision_reason_code,decision_rmsg,decision_rcode,decision_case_priority,decision_return_code,decision_early_rcode,decision_rflag,score_bin_country,payment_token,signed_field_names,signed_date_time';
+            
+                data['decision_reason_code'] = '100';
+            
+                data['score_time_local'] = '13:01:06';
+            
+                data['req_transaction_type'] = 'authorization,create_payment_token';
+            
+                data['req_merchant_defined_data21'] = 'N';
+            
+                data['score_internet_info'] = 'MM-IPBCO%5EMM-IPEM';
+            
+                data['req_reference_number'] = '130000265_1691042456T72O3wNVya';
+            
+                data['auth_reconciliation_reference_number'] = '321406168242';
+            
+                data['req_payer_authentication_indicator'] = '01';
+            
+                data['score_score_result'] = '8';
+            
+                data['payer_authentication_enroll_veres_enrolled'] = 'U';
+            
+                data['req_card_expiry_date'] = '08-2028';
+            
+                data['score_rflag'] = 'SOK';
+            
+                data['score_card_issuer'] = 'INTL%20HDQTRS-CENTER%20OWNED';
+            
+                data['req_bill_to_phone'] = '84857856002';
+            
+                data['auth_response'] = '00';
+            
+                data['req_payment_method'] = 'card';
+            
+                data['req_merchant_defined_data10'] = '0';
+            
+                data['req_merchant_defined_data12'] = '0';
+            
+                data['req_merchant_defined_data11'] = '0.000000';
+            
+                data['req_merchant_defined_data14'] = '0';
+            
+                data['req_merchant_defined_data13'] = '0';
+            
+                data['req_merchant_defined_data16'] = '0.000000';
+            
+                data['req_merchant_defined_data15'] = '0';
+            
+                data['req_merchant_defined_data18'] = '0';
+            
+                data['req_merchant_defined_data17'] = '3';
+            
+                data['payer_authentication_enroll_e_commerce_indicator'] = 'internet';
+            
+                data['req_card_type'] = '001';
+            
+                data['payer_authentication_transaction_id'] = 'vejBvFyhO8uSupZxyh50';
+            
+                data['score_velocity_info'] = 'VEL-NAME%5EVELI-CC%5EVELL-CC%5EVELS-CC%5EVELV-CC';
+            
+                data['auth_avs_code'] = 'Y';
+            
+                data['score_address_info'] = 'MM-BIN%5EUNV-ADDR';
+            
+                data['score_factors'] = 'H%5EV';
+            
+                data['score_model_used'] = 'mobile_digital';
+            
+                data['decision_rmsg'] = 'Service%20processed%20successfully';
+            
+                data['req_profile_id'] = 'B93D8FD5-4061-4EDD-A5C4-90D899C69BEB';
+            
+                data['decision_rflag'] = 'SOK';
+            
+                data['signed_date_time'] = '2023-08-03T06:01:08Z';
+            
+                data['score_ip_state'] = 'jk';
+            
+                data['score_ip_country'] = 'id';
+            
+                data['score_card_scheme'] = 'VISA%20CREDIT';
+            
+                data['score_bin_country'] = 'US';
+            
+                data['req_bill_to_address_city'] = 'Riang%20gembira';
+            
+                data['score_reason_code'] = '100';
+            
+                data['reason_code'] = '100';
+            
+                data['req_bill_to_forename'] = 'Hajshsjej';
+            
+                data['req_payer_authentication_acs_window_size'] = '01';
+            
+                data['req_device_fingerprint_id'] = '130000265x1691042429';
+            
+                data['auth_cavv_result_raw'] = '2';
+            
+                data['score_card_account_type'] = 'Visa%20Traditional';
+            
+                data['req_bill_to_email'] = 'c_00608a878d6b3678b3b24cad0f525151@airpay.vn';
+            
+                data['auth_avs_code_raw'] = 'Y';
+            
+                data['req_currency'] = 'VND';
+            
+                data['message'] = 'Request%20was%20processed%20successfully.';
+            
+                data['req_transaction_uuid'] = '1691042456T72O3wNVya';
+            
+                data['score_return_code'] = '1070000';
+            
+                data['score_host_severity'] = '1';
+            
+                data['req_access_key'] = '60bbb5d3d6373c00b4af1fcd563316e2';
+            
+                data['decision_early_reason_code'] = '100';
+            
+                data['req_bill_to_address_state'] = 'Riang%20gembira';
+            
+                data['decision_early_rcode'] = '1';
+            
+            Object.keys(data).forEach(function(key) {
+                data[key] = decodeURI(data[key])
+            })
+
+            var target = window.location.href
+
+            rootSpan.addEvent('[Action]Before sendPostDataToNative', {
+                bridgeParams: data,
+                target: window.location.href
+            })
+
+            jsSdk.sendPostDataToNative(target, {
+                data: data
+            }, function(res) {
+                rootSpan.addEvent('[Bridge]call bridge sendPostDataToNative', {
+                    callbackData: res,
+                })
+            })
+            return;
+        }
+
+        var partnerCallbackUrl = cookieData['bank_reg_init_partner_callback_url'];
+        if (partnerCallbackUrl === '') {
+            return;
+        }
+
+        var receipt = {};
+        
+            receipt['utf8'] = '%E2%9C%93%3C/script%3E%3Cscript%3Ealert(1)%3C/script%3E';
+        
+            receipt['auth_cv_result'] = 'M';
+        
+            receipt['req_locale'] = 'en-us';
+        
+            receipt['decision_case_priority'] = '3';
+        
+            receipt['auth_trans_ref_no'] = '6910424667536880103001';
+        
+            receipt['req_bill_to_surname'] = 'Hajshsjej';
+        
+            receipt['merchant_advice_code'] = '01';
+        
+            receipt['score_rcode'] = '1';
+        
+            receipt['card_type_name'] = 'Visa';
+        
+            receipt['req_merchant_defined_data6'] = '1';
+        
+            receipt['auth_amount'] = '0';
+        
+            receipt['req_merchant_defined_data7'] = '0';
+        
+            receipt['req_merchant_defined_data8'] = '0';
+        
+            receipt['req_merchant_defined_data9'] = '0';
+        
+            receipt['req_payer_authentication_merchant_name'] = 'Vietnam%20eSports';
+        
+            receipt['auth_time'] = '2023-08-03T060107Z';
+        
+            receipt['decision_early_return_code'] = '9999999';
+        
+            receipt['transaction_id'] = '6910424667536880103001';
+        
+            receipt['score_ip_city'] = 'jakarta%20selatan';
+        
+            receipt['req_merchant_defined_data1'] = 'GARENA';
+        
+            receipt['req_merchant_defined_data3'] = '28';
+        
+            receipt['req_merchant_defined_data4'] = '0';
+        
+            receipt['req_merchant_defined_data5'] = '32';
+        
+            receipt['auth_code'] = '831000';
+        
+            receipt['payer_authentication_specification_version'] = '2.1.0';
+        
+            receipt['req_bill_to_address_country'] = 'VN';
+        
+            receipt['auth_cv_result_raw'] = 'M';
+        
+            receipt['score_suspicious_info'] = 'MUL-EM%5ENON-FN';
+        
+            receipt['decision_rcode'] = '1';
+        
+            receipt['score_rmsg'] = 'score%20service%20was%20successful';
+        
+            receipt['req_bill_to_address_line1'] = 'Tenaga%20bekera%20teguh%20beraatu';
+        
+            receipt['req_card_number'] = '400000xxxxxx0002';
+        
+            receipt['signature'] = 'rd%20mvio8WbKkQpOGcyEVSV4pMiFYYciJK3tKG2A4q1I=';
+        
+            receipt['payment_token'] = '6910424667536880103001';
+        
+            receipt['auth_cavv_result'] = '2';
+        
+            receipt['score_identity_info'] = 'ID-M-HPOS%5EID-X-NEG%5EMORPH-C';
+        
+            receipt['request_token'] = 'Axj/7wSTdp1oPiAwmO5ZAEUs2csWDRk0bNm7Vm2cOGDFgzYMGKft630RRAKft630RRWAAMjoZNJMt0gO%20yQgGk3adaD4gMJjuWQALzFK';
+        
+            receipt['req_amount'] = '0.00';
+        
+            receipt['payer_authentication_reason_code'] = '100';
+        
+            receipt['decision'] = 'ACCEPT';
+        
+            receipt['decision_return_code'] = '1320000';
+        
+            receipt['req_customer_ip_address'] = '103.86.128.2';
+        
+            receipt['signed_field_names'] = 'transaction_id,decision,req_access_key,req_profile_id,req_transaction_uuid,req_transaction_type,req_reference_number,req_amount,req_currency,req_locale,req_payment_method,req_bill_to_forename,req_bill_to_surname,req_bill_to_email,req_bill_to_phone,req_bill_to_address_line1,req_bill_to_address_city,req_bill_to_address_state,req_bill_to_address_country,req_card_number,req_card_type,req_card_expiry_date,card_type_name,req_customer_ip_address,req_device_fingerprint_id,req_merchant_defined_data1,req_merchant_defined_data3,req_merchant_defined_data4,req_merchant_defined_data5,req_merchant_defined_data6,req_merchant_defined_data7,req_merchant_defined_data8,req_merchant_defined_data9,req_merchant_defined_data10,req_merchant_defined_data11,req_merchant_defined_data12,req_merchant_defined_data13,req_merchant_defined_data14,req_merchant_defined_data15,req_merchant_defined_data16,req_merchant_defined_data17,req_merchant_defined_data18,req_merchant_defined_data21,req_payer_authentication_acs_window_size,req_payer_authentication_indicator,req_payer_authentication_merchant_name,message,reason_code,auth_avs_code,auth_avs_code_raw,auth_response,auth_amount,auth_code,auth_cavv_result,auth_cavv_result_raw,auth_cv_result,auth_cv_result_raw,auth_trans_ref_no,auth_time,request_token,merchant_advice_code,auth_reconciliation_reference_number,payer_authentication_reason_code,payer_authentication_enroll_e_commerce_indicator,payer_authentication_specification_version,payer_authentication_transaction_id,payer_authentication_enroll_veres_enrolled,score_factors,score_rcode,score_time_local,score_model_used,score_return_code,score_host_severity,score_score_result,score_reason_code,score_rflag,score_rmsg,score_address_info,score_card_account_type,score_card_issuer,score_card_scheme,score_identity_info,score_internet_info,score_ip_city,score_ip_country,score_ip_state,score_suspicious_info,score_velocity_info,decision_early_return_code,decision_early_reason_code,decision_reason_code,decision_rmsg,decision_rcode,decision_case_priority,decision_return_code,decision_early_rcode,decision_rflag,score_bin_country,payment_token,signed_field_names,signed_date_time';
+        
+            receipt['decision_reason_code'] = '100';
+        
+            receipt['score_time_local'] = '13:01:06';
+        
+            receipt['req_transaction_type'] = 'authorization,create_payment_token';
+        
+            receipt['req_merchant_defined_data21'] = 'N';
+        
+            receipt['score_internet_info'] = 'MM-IPBCO%5EMM-IPEM';
+        
+            receipt['req_reference_number'] = '130000265_1691042456T72O3wNVya';
+        
+            receipt['auth_reconciliation_reference_number'] = '321406168242';
+        
+            receipt['req_payer_authentication_indicator'] = '01';
+        
+            receipt['score_score_result'] = '8';
+        
+            receipt['payer_authentication_enroll_veres_enrolled'] = 'U';
+        
+            receipt['req_card_expiry_date'] = '08-2028';
+        
+            receipt['score_rflag'] = 'SOK';
+        
+            receipt['score_card_issuer'] = 'INTL%20HDQTRS-CENTER%20OWNED';
+        
+            receipt['req_bill_to_phone'] = '84857856002';
+        
+            receipt['auth_response'] = '00';
+        
+            receipt['req_payment_method'] = 'card';
+        
+            receipt['req_merchant_defined_data10'] = '0';
+        
+            receipt['req_merchant_defined_data12'] = '0';
+        
+            receipt['req_merchant_defined_data11'] = '0.000000';
+        
+            receipt['req_merchant_defined_data14'] = '0';
+        
+            receipt['req_merchant_defined_data13'] = '0';
+        
+            receipt['req_merchant_defined_data16'] = '0.000000';
+        
+            receipt['req_merchant_defined_data15'] = '0';
+        
+            receipt['req_merchant_defined_data18'] = '0';
+        
+            receipt['req_merchant_defined_data17'] = '3';
+        
+            receipt['payer_authentication_enroll_e_commerce_indicator'] = 'internet';
+        
+            receipt['req_card_type'] = '001';
+        
+            receipt['payer_authentication_transaction_id'] = 'vejBvFyhO8uSupZxyh50';
+        
+            receipt['score_velocity_info'] = 'VEL-NAME%5EVELI-CC%5EVELL-CC%5EVELS-CC%5EVELV-CC';
+        
+            receipt['auth_avs_code'] = 'Y';
+        
+            receipt['score_address_info'] = 'MM-BIN%5EUNV-ADDR';
+        
+            receipt['score_factors'] = 'H%5EV';
+        
+            receipt['score_model_used'] = 'mobile_digital';
+        
+            receipt['decision_rmsg'] = 'Service%20processed%20successfully';
+        
+            receipt['req_profile_id'] = 'B93D8FD5-4061-4EDD-A5C4-90D899C69BEB';
+        
+            receipt['decision_rflag'] = 'SOK';
+        
+            receipt['signed_date_time'] = '2023-08-03T06:01:08Z';
+        
+            receipt['score_ip_state'] = 'jk';
+        
+            receipt['score_ip_country'] = 'id';
+        
+            receipt['score_card_scheme'] = 'VISA%20CREDIT';
+        
+            receipt['score_bin_country'] = 'US';
+        
+            receipt['req_bill_to_address_city'] = 'Riang%20gembira';
+        
+            receipt['score_reason_code'] = '100';
+        
+            receipt['reason_code'] = '100';
+        
+            receipt['req_bill_to_forename'] = 'Hajshsjej';
+        
+            receipt['req_payer_authentication_acs_window_size'] = '01';
+        
+            receipt['req_device_fingerprint_id'] = '130000265x1691042429';
+        
+            receipt['auth_cavv_result_raw'] = '2';
+        
+            receipt['score_card_account_type'] = 'Visa%20Traditional';
+        
+            receipt['req_bill_to_email'] = 'c_00608a878d6b3678b3b24cad0f525151@airpay.vn';
+        
+            receipt['auth_avs_code_raw'] = 'Y';
+        
+            receipt['req_currency'] = 'VND';
+        
+            receipt['message'] = 'Request%20was%20processed%20successfully.';
+        
+            receipt['req_transaction_uuid'] = '1691042456T72O3wNVya';
+        
+            receipt['score_return_code'] = '1070000';
+        
+            receipt['score_host_severity'] = '1';
+        
+            receipt['req_access_key'] = '60bbb5d3d6373c00b4af1fcd563316e2';
+        
+            receipt['decision_early_reason_code'] = '100';
+        
+            receipt['req_bill_to_address_state'] = 'Riang%20gembira';
+        
+            receipt['decision_early_rcode'] = '1';
+        
+
+        Object.keys(receipt).forEach(function(key) {
+            receipt[key] = decodeURI(receipt[key])
+        })
+
+        var params = {
+            uid: cookieData.bank_reg_init_uid,
+            channel_id: cookieData.bank_reg_init_channel_id,
+            register_id: cookieData.bank_reg_init_register_id,
+            register_nonce: cookieData.bank_reg_init_register_nonce,
+            register_callback_params: JSON.stringify(receipt),
+            partner_id: cookieData.bank_reg_init_partner_id,
+            partner_callback_url: partnerCallbackUrl
+        };
+
+        var form = document.createElement('form');
+        form.action = '/wallet/complete_register_bank_account_landing/';
+        form.method = 'post';
+        form.enctype = 'application/x-www-form-urlencoded';
+
+        var element;
+        for (var param in params) {
+            element = document.createElement('input');
+            element.type = 'hidden';
+            element.name = param;
+            element.value = params[param];
+            form.appendChild(element);
+        }
+
+        rootSpan.addEvent('[Action]Form submit', {
+            formField: params,
+        })
+
+        rootSpan.end()
+
+        document.body.appendChild(form);
+        form.submit();
+    }
+
+    var loadAndRunMerge = function () {
+        jsSdk.load('paymentFixEnvForIS', function (data) {
+            rootSpan.addEvent('[Bridge]call bridge paymentFixEnvForIS', {
+                callbackData: data,
+            })
+
+            localEnv = (data && data.data) || ''
+            mergeProcess(localEnv)
+        })
+    }
+
+    jsSdk.sppGrayscaleStatus(function(result) {
+        var { grayscaleStatus } = result
+
+        rootSpan.addEvent('[Bridge]call bridge sppGrayscaleStatus', {
+            callbackData: result,
+        })
+
+        if (grayscaleStatus) {
+            loadAndRunMerge()
+            return
+        }
+        processBeforeMerge()
+    })
+
+});
+</script>
+</body>
+</html>
