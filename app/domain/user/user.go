@@ -17,8 +17,8 @@ type UserBase struct {
 }
 
 type AcademicExperience struct {
-	Name        string `json:"name"`
-	Achievement string `json:"achievement"`
+	Name        string  `json:"name"`
+	Achievement float64 `json:"achievement"`
 }
 
 type User struct {
@@ -28,9 +28,10 @@ type User struct {
 	UserId               int                  `bun:"user_id,pk,autoincrement"`
 	GPA                  float64              `bun:"gpa"`
 	SchoolName           string               `bun:"school_name"`
-	SchoolType           string               `bun:"school_type"`
+	SchoolType           int                  `bun:"school_type"`
+	Degree               int                  `bun:"degree"`
 	Major                string               `bun:"major"`
-	LanguageAchi         string               `bun:"language_achi"`
+	LanguageAchi         AcademicExperience   `bun:"language_achi"`
 	AcademicExperience   []AcademicExperience `bun:"academic_experience"`
 	IntentRegion         string               `bun:"intent_region"`
 	IntentMajor          string               `bun:"intent_major"`

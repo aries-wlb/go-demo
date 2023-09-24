@@ -14,6 +14,8 @@ func generateUserResp(user *user.User) *UserResp {
 		SchoolType:           user.SchoolType,
 		Major:                user.Major,
 		LanguageAchi:         user.LanguageAchi,
+		LanguageScore:        user.LanguageAchi.Achievement,
+		LanguageType:         user.LanguageAchi.Name,
 		AcademicExperience:   user.AcademicExperience,
 		IntentRegion:         user.IntentRegion,
 		IntentMajor:          user.IntentMajor,

@@ -37,6 +37,7 @@ func (u *UserHandler) updateUser(w http.ResponseWriter, req bunrouter.Request) e
 	user := u.UserImpl.Get(userInfo.Id)
 	user.UserName = updateReq.UserName
 	user.AccountName = updateReq.AccountName
+	user.Degree = updateReq.Degree
 	user.Email = updateReq.Email
 	user.PhoneNumber = updateReq.PhoneNumber
 	user.GPA = updateReq.GPA

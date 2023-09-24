@@ -36,9 +36,11 @@ type UserResp struct {
 	UserId               int                       `json:"user_id"`
 	GPA                  float64                   `json:"gpa"`
 	SchoolName           string                    `json:"school_name"`
-	SchoolType           string                    `json:"school_type"`
+	SchoolType           int                       `json:"school_type"`
 	Major                string                    `json:"major"`
-	LanguageAchi         string                    `json:"language_achi"`
+	LanguageAchi         user.AcademicExperience   `json:"language_achi"`
+	LanguageScore        float64                   `json:"language_score"`
+	LanguageType         string                    `json:"language_type"`
 	AcademicExperience   []user.AcademicExperience `json:"academic_experience"`
 	IntentRegion         string                    `json:"intent_region"`
 	IntentMajor          string                    `json:"intent_major"`

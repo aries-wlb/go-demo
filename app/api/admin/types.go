@@ -19,10 +19,11 @@ type UserUpdateReq struct {
 	WechatID             string                    `json:"wechat_id"`
 	Location             string                    `json:"location"`
 	SchoolName           string                    `json:"school_name"`
-	SchoolType           string                    `json:"school_type"`
+	Degree               int                       `json:"degree"`
+	SchoolType           int                       `json:"school_type"`
 	Major                string                    `json:"major"`
 	GPA                  float64                   `json:"gpa"`
-	LanguageAchi         string                    `json:"language_achi"`
+	LanguageAchi         user.AcademicExperience   `json:"language_achi"`
 	AcademicExperience   []user.AcademicExperience `json:"academic_experience"`
 	IntentRegion         string                    `json:"intent_region"`
 	IntentMajor          string                    `json:"intent_major"`
@@ -52,9 +53,10 @@ type UserResp struct {
 	UserId               int                       `json:"user_id"`
 	GPA                  float64                   `json:"gpa"`
 	SchoolName           string                    `json:"school_name"`
-	SchoolType           string                    `json:"school_type"`
+	Degree               int                       `json:"degree"`
+	SchoolType           int                       `json:"school_type"`
 	Major                string                    `json:"major"`
-	LanguageAchi         string                    `json:"language_achi"`
+	LanguageAchi         user.AcademicExperience   `json:"language_achi"`
 	AcademicExperience   []user.AcademicExperience `json:"academic_experience"`
 	IntentRegion         string                    `json:"intent_region"`
 	IntentMajor          string                    `json:"intent_major"`

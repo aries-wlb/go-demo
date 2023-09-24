@@ -11,8 +11,22 @@ type UKCategory struct {
 }
 
 type BaseCondition struct {
-	TOEFL int
-	IELTS float64
+	TOEFL      float64
+	IELTS      float64
+	GMAT       int
+	GRE        int
+	GPA        float64
+	SchoolType int
+	Priority   int
+}
+
+type ConditionType struct {
+	BaseCondition
+	SAT    int
+	ACT    int
+	AP     int
+	IB     int
+	ALevel int
 }
 
 type USCondition struct {
@@ -20,7 +34,6 @@ type USCondition struct {
 	SAT int
 	ACT int
 	AP  int
-	GPA float64
 }
 
 type UKCondition struct {
@@ -43,7 +56,6 @@ type AUCategory struct {
 
 type AUCondition struct {
 	BaseCondition
-	YBorSeven bool
 }
 
 type HKCategory struct {
@@ -52,6 +64,14 @@ type HKCategory struct {
 }
 
 type HKCondition struct {
-	IELTS  float64
+	BaseCondition
 	ALevel int
+}
+
+type ScoreMap = map[string]float64
+
+type School struct {
+	Name    string
+	BScore  ScoreMap
+	SeScore ScoreMap
 }

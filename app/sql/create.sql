@@ -1,11 +1,12 @@
 -- 创建用户表
 CREATE TABLE users (
   user_id INT AUTO_INCREMENT,
-  gpa DECIMAL(4, 2) CHECK (gpa >= 0 AND gpa <= 4.00), 
+  gpa DECIMAL(4, 2) CHECK (gpa >= 0 AND gpa <= 100.00), 
   school_name VARCHAR(100),
-  school_type VARCHAR(100),
+  school_type INT,
+  degree INT,
   major VARCHAR(100),
-  language_achi TEXT,
+  language_achi JSON DEFAULT NULL,
   academic_experience JSON,
   intent_region VARCHAR(100),
   intent_major VARCHAR(100),

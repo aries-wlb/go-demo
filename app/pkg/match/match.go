@@ -1,20 +1,44 @@
 package match
 
 type MatchParam struct {
-	Type      string
-	condition interface{}
+	Region    string
+	Degree    int
+	Condition ConditionType
 }
 
-func Match(param MatchParam) {
-	switch param.Type {
+func Match(param MatchParam) string {
+	switch param.Region {
 	case "US":
-		USMatch(param.condition.(USCondition))
+		condition := USCondition{
+			BaseCondition: param.Condition.BaseCondition,
+			SAT:           param.Condition.SAT,
+			ACT:           param.Condition.ACT,
+			AP:            param.Condition.AP,
+		}
+		condition.Priority = getSchoolPriority(condition.SchoolType)
+		return USMatch(condition, param.Degree)
 	case "UK":
-		UKMatch(param.condition.(UKCondition))
+		condition := UKCondition{
+			BaseCondition: param.Condition.BaseCondition,
+			AP:            param.Condition.AP,
+			IB:            param.Condition.IB,
+			ALevel:        param.Condition.ALevel,
+		}
+		condition.Priority = getSchoolPriority(condition.SchoolType)
+		return UKMatch(condition, param.Degree)
 	case "HK":
-		HKMatch(param.condition.(HKCondition))
-	case "AU":
-		AUMatch(param.condition.(AUCondition))
+		condition := HKCondition{
+			BaseCondition: param.Condition.BaseCondition,
+			ALevel:        param.Condition.ALevel,
+		}
+		condition.Priority = getSchoolPriority(condition.SchoolType)
+		return HKMatch(condition, param.Degree)
+	case "AUS":
+		condition := AUCondition{
+			BaseCondition: param.Condition.BaseCondition,
+		}
+		condition.Priority = getSchoolPriority(condition.SchoolType)
+		return AUMatch(condition, param.Degree)
 	}
-
+	return ""
 }

@@ -56,6 +56,7 @@ func (a *AdminHandler) updateUser(w http.ResponseWriter, req bunrouter.Request) 
 	user.AccountName = updateReq.AccountName
 	user.Email = updateReq.Email
 	user.PhoneNumber = updateReq.PhoneNumber
+	user.Degree = updateReq.Degree
 	user.GPA = updateReq.GPA
 	user.Major = updateReq.Major
 	user.Gender = updateReq.Gender

@@ -13,4 +13,5 @@ func Init(group *bunrouter.Group, impl *repository.RepoImpl) {
 	logger.Info("init auth common route")
 
 	group.POST("/match", authCommonHandler.match)
+	group.GET("/getOptions", authCommonHandler.getOptions)
 }
