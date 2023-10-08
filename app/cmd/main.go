@@ -2,10 +2,10 @@ package main
 
 import (
 	_ "github.com/joho/godotenv/autoload"
-	"dipont.com/demo/app"
+	"patrick.com/abroad/app"
 )
 
 func main() {
-	webApp,_,_ :=app.BuildApp()
+	webApp, _, _ := app.BuildApp()
 	webApp.Run()
 }

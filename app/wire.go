@@ -4,17 +4,16 @@
 package app
 
 import (
-	"dipont.com/demo/app/controller"
-	"dipont.com/demo/app/repository"
 	"github.com/google/wire"
+	"patrick.com/abroad/app/repository"
 )
 
 func BuildApp() (*App, func(), error) {
-	wire.Build(controller.ControllerSet,
-		repository.RepositorySet,
+	wire.Build(repository.RepositorySet,
+		repository.ImplSet,
 		AppSet,
-		NewGormDB,
-		NewSqliteDB,
+		NewBunormDB,
+		NewMysqlDB,
 	)
 	return new(App), nil, nil
 }
