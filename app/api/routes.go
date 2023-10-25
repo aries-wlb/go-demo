@@ -32,15 +32,15 @@ func InitRoutes(repoImpl *repository.RepoImpl) *bunrouter.Router {
 	group := router.NewGroup("/api/v1")
 	common.Init(group, repoImpl)
 
-	group = group.Use(
+	rgroup := group.Use(
 		jwt.JWT,
 		permission.CasbinMiddleware,
 	)
-	auth_common.Init(group, repoImpl)
-	user.Init(group, repoImpl.UserRepoImpl)
-	file.Init(group, repoImpl.FileImpl)
-	admin.Init(group, repoImpl)
-	application.Init(group, repoImpl.ApplicationImpl)
+	auth_common.Init(rgroup, repoImpl)
+	user.Init(rgroup, repoImpl.UserRepoImpl)
+	file.Init(rgroup, repoImpl.FileImpl)
+	admin.Init(rgroup, repoImpl)
+	application.Init(rgroup, repoImpl.ApplicationImpl)
 
 	return router
 }

@@ -10,7 +10,7 @@ func Init(group *bunrouter.Group, ai application.ApplicationRepoImpl) {
 	applicationHandler := &ApplicationHandler{
 		ApplicationImpl: ai,
 	}
-	logger.Info("init user route")
+	logger.Info("init application route")
 
 	userGroup := group.NewGroup("/application")
 

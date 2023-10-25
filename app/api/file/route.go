@@ -10,7 +10,7 @@ func Init(group *bunrouter.Group, fi file.FileRepoImpl) {
 	fileHandler := &FileHandler{
 		FileImpl: fi,
 	}
-	logger.Info("init common route")
+	logger.Info("init file route")
 
 	fileGroup := group.NewGroup("/file")
 

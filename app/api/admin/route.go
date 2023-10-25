@@ -10,7 +10,7 @@ func Init(group *bunrouter.Group, impl *repository.RepoImpl) {
 	adminHandler := &AdminHandler{
 		Impl: impl,
 	}
-	logger.Info("init user route")
+	logger.Info("init admin route")
 
 	userGroup := group.NewGroup("/admin")
 
