@@ -11,7 +11,7 @@ var Enforcer *casbin.Enforcer
 func init() {
 
 	// 注入casbin
-	path := "app/conf/rbac_model.conf"
+	path := "./conf/rbac_model.conf"
 	enforcer, err := casbin.NewEnforcerSafe(path, false)
 
 	Enforcer = enforcer
