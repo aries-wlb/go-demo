@@ -87,6 +87,6 @@ CREATE TABLE articles (
   title VARCHAR(255),
   article_url VARCHAR(255),
   content TEXT,
-  author VARCHAR(255)
+  author VARCHAR(255),
   PRIMARY KEY (article_id)
 );

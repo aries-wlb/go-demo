@@ -46,11 +46,17 @@ func (ud *UserRepoImpl) Create(ub UserBase) error {
 		UserBase: ub,
 	}
 	err := ud.UserRepo.Create(user)
+	if err == nil {
+		ud.LoadPolicy(user)
+	}
 	return err
 }
 
 func (ud *UserRepoImpl) UpdateUser(u *User) error {
 	err := ud.UserRepo.Update(u)
+	if err == nil {
+		ud.LoadPolicy(u)
+	}
 	return err
 }
 

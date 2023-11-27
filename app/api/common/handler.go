@@ -70,7 +70,7 @@ func (c *CommonHandler) createUser(w http.ResponseWriter, req bunrouter.Request)
 		AccountName: regParam.AccountName,
 		PhoneNumber: regParam.PhoneNumber,
 		Password:    regParam.Password,
-		RoleId:      regParam.RoleId,
+		RoleId:      2,
 	}
 
 	err2 := c.Impl.UserRepoImpl.Create(ub)
