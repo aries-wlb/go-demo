@@ -31,5 +31,5 @@ jobs:
       run: wire gen ./app
 
     - name: Build
-      run: CGO_ENABLED=0 go build -ldflags "-s -w" -o /app/bin/app /app/app/cmd
+      run: CGO_ENABLED=0 go build -ldflags "-s -w" -o ./app/bin/app ./app/cmd
 
