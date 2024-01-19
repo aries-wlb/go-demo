@@ -28,7 +28,7 @@ jobs:
       run: go install github.com/google/wire/cmd/wire@latest
 
     - name: gen wire
-      run: wire gen ../../../app
+      run: wire gen ./app
 
     - name: Build
       run: CGO_ENABLED=0 go build -ldflags "-s -w" -o /app/bin/app /app/app/cmd
